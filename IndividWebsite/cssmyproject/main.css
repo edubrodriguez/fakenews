@@ -1,0 +1,309 @@
+/*Reset /Universal
+====================================*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #010200;
+    color: antiquewhite;
+}
+
+/* Body ============================*/
+
+body {
+    margin: 20px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+
+/*Banner
+====================================*/
+
+.banner {
+    background-image: url(../imagesmyproject/fake-news-2127597_640.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat:repeat-x;
+    background-color: dimgray;
+    padding: 80px;
+    margin: auto;
+    border: 10px dotted black;
+    text-align: center;
+    width: 90%;
+/*    font-family: 'Acme', sans-serif;*/
+    font-size: 60px;
+    color:#efe6e6;
+}
+
+.banner h1 {
+    color:antiquewhite;
+    font-family: 'Love Ya Like A Sister', cursive;
+    width: 100%;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: black;
+    border: 10px dotted red;
+}
+
+.banner h4 {
+    color: #990000;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    display: inline-block;
+    background-color: dimgray;
+}
+
+.banner h6 {
+    color: #990000;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 15px;
+    width: 50%;
+    display: inline-block;
+    background-color: dimgray;
+}
+
+.slogan {
+/*    width: 100%;*/
+    height: 150px;
+    background-color: dimgray;
+    background-image: url(../imagesmyproject/fake-news-2127597_640.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat:repeat-x;
+    border: 10px dotted black;
+/*    overflow: visible;*/
+}
+
+/* Nav 
+====================================*/
+
+.main-nav {
+/*    display: block;*/
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+/*    border-bottom: 1px solid #ff1a1a;*/
+    list-style: none;
+    background-color: dimgray;
+}
+
+.main-nav button a {
+    background-color: black;
+    padding: 10px;
+    font-family: 'Oldenburg', cursive;
+    font-size: 20px;
+    overflow: auto;
+/*    border-bottom: 1px solid #ff1a1a;*/
+    border: 2px solid red;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a.active {
+    background-color: red;
+    border: 2px solid black;
+/*    color: white;*/
+/*    border-bottom: 1px solid #ff1a1a;*/
+}
+
+
+/*Header
+====================================*/
+
+.head-news h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.head-news {
+    border: 10px solid red;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 20px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    /*width: 99%;*/
+}
+
+.head-news img {
+    display: inline-block;
+    float: right;
+    margin: 10px;
+}
+
+#election {
+    border-radius: 30%;
+    height: 400px;
+    overflow:auto;
+}
+
+.head-news p {
+    text-overflow: ellipsis;
+    font-family: 'Oldenburg', cursive;
+    font-size: 15px;
+    /*padding: 10px;*/
+    margin: 10px;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    color: antiquewhite;
+}
+
+/*Main
+====================================*/
+
+.main-sec {
+    border: 10px solid red;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera*/ 
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    /*width: 100%;*/
+    /*    padding: 5px;*/
+}
+
+.col-2 {
+    /*width: 100%;*/
+    /*float: right;*/
+    /*-webkit-column-break-inside: avoid;*/
+    /*      page-break-inside: avoid;*/
+    /*           break-inside: avoid;*/
+    /*border: 2px solid gray;*/
+    /*overflow: hidden;*/
+    /*padding: 5px;*/
+    /*margin: 0 auto;*/
+}
+
+.matrix {
+    border-right: solid gray;
+    -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+}
+
+.matrix p {
+    padding: 5px;
+    margin: 5px;
+}
+
+.statue {
+    border-left: solid gray;
+    -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+}
+
+.statue p {
+    padding: 5px;
+    margin: 5px;
+}
+
+.main-sec img {
+    /*margin: 0 auto;*/
+    border-radius: 10%;
+    /*width: 50%;*/
+    height: 250px;
+    /*padding: 5px;*/
+    /*margin: 5px;*/
+/*    border: 2px solid red;*/
+    /*float: left;*/
+    display: inline-block;
+}
+
+.main-sec p {
+    display: inline-block;
+    /*margin: auto;*/
+    padding: 2px;
+    /*overflow-x:hidden;*/
+    font-family: 'Oldenburg', cursive;
+}
+
+/* Second Section
+====================================*/
+.sec-sec {
+    border: 10px solid red;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    /*width: 100%;*/
+}
+
+.col-3 {
+    /*width: 100%;*/
+/*    float: right;*/
+    border: 2px solid gray;
+    /*overflow: hidden;*/
+    padding: 5px;
+    /*margin: 5px;*/
+    -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+}
+
+.col-3 img {
+    margin: 0 auto;
+    border-radius: 10%;
+    width: 30%;
+    height: 125px;
+    padding: 5px;
+}
+
+.col-3 p {
+    font-family: 'Oldenburg', cursive;
+}
+
+/*Footer
+====================================*/
+
+.footer {
+    border: 10px solid red;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+    /*width: 99%;*/
+}
+
+.footer h3 {
+    padding-top: 20px;
+}
+
+.footer h3:hover {
+    color: #ff4d4d;
+    font-size: 1.5em;
+    transition: ease-in-out .5s;
+}
+
+.footer h5 {
+    padding: 10px;
+    font-family: 'Oldenburg', cursive;
+}
+
+.footer h5:hover {
+    color: #ffff1a;
+    font-size: 1em;
+    transition: ease-in .5s;
+}
+
+/*Media Query for Responsive Web Design
+=====================================*/
+@media(max-width:700px) {
+  .thing-1 {
+    width: 100%;
+  }
+  .thing-2 {
+    width: 100%;
+  }
+}
+/*===================================*/
